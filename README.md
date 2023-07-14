@@ -66,7 +66,7 @@ Apart from building data structure, we were challenge with tasks that require SQ
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 -[x] Use 'CREATE TABLE ...' syntax to create table
 -[x] Use 'INSERT INTO ...' To insert data
@@ -101,13 +101,13 @@ To setup and install this project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/francksefu/capstone-react.git
+$ git clone https://github.com/francksefu/vet_clinic.git
 ```
 
 - Then switch to the project folder by the bellow query:
 
 ```
-$ cd capstone-react
+$ cd vet_clinic
 ```
 
 ### Install
@@ -134,7 +134,7 @@ Coming soon
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+
 
 👤 **Author1**
 
@@ -168,7 +168,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project live it a start
+If you like this project, clone it to have it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -20,6 +20,7 @@ BEGIN;
   UPDATE animals SET species ='pokemon' WHERE species IS NULL;
   select * from animals;
 COMMIT;
+select * from animals;
 
 BEGIN;
   DELETE FROM animals;
@@ -29,6 +30,7 @@ select * from animals;
 BEGIN;
   DELETE FROM animals WHERE date_of_birth > '2022-01-01';
   select * from animals;
+  SAVEPOINT SP0;
 COMMIT;
 
 BEGIN;
@@ -48,5 +50,5 @@ COMMIT;
  select MIN(weight_kg), MAX(weight_kg), species from animals GROUP BY species;
 
  --for the last
- SELECT AVG(espace_attempts), species FROM (SELECT*FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-12') as animal GROUP BY species;
- 
+ SELECT AVG(espace_attempts), species FROM (SELECT*FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31') as animal GROUP BY species;
+
